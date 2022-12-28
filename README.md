@@ -1,3 +1,3 @@
 # pokeDex
 
-PokeDex for Pokemon fan
+PokeDex for Pokemon fans
