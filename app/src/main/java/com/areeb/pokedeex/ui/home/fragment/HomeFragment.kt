@@ -5,7 +5,6 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import com.areeb.pokedeex.databinding.FragmentHomeBinding
 import com.areeb.pokedeex.ui.base.Fragment.BaseFragment

@@ -3,4 +3,9 @@
     <string name="developer_name">Areeb This side</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="application_name">Pokédex</string>
+    <string name="app_description">Search for a pokemon by name or using its National Pokédex number</string>
+    <string name="e">é</string>
+    <string name="search_description">Name or Search</string>
+
 </resources>
