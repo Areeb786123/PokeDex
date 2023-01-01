@@ -43,7 +43,7 @@ class HomeFragment : BaseFragment() {
     }
 
     private fun init() {
-        homeAdapter = HomeAdapter()
+        homeAdapter = context?.let { HomeAdapter(it) }
         fragmentBinding.pokemonRecyclerView.adapter = homeAdapter
     }
 }

@@ -11,4 +11,6 @@
     <color name="grey">#7A7676</color>
     <color name="app_text_color">#454B6A</color>
     <color name="search_background">#d7e6ea</color>
+    <color name="even">#03A9F4</color>
+    <color name="odd">#E91E63</color>
 </resources>
