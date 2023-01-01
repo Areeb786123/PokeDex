@@ -69,5 +69,8 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0"
     kapt "androidx.lifecycle:lifecycle-compiler:2.3.0"
 
+    // ProgressBar Loading Animation
+    implementation "com.airbnb.android:lottie:4.2.2"
+
 
 }
