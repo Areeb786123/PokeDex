@@ -7,5 +7,6 @@
     <string name="app_description">Search for a pokemon by name or using its National Pokédex number</string>
     <string name="e">é</string>
     <string name="search_description">Name or Search</string>
+    <string name="imageDes">Image Description</string>
 
 </resources>
