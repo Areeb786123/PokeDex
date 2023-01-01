@@ -1,5 +1,6 @@
 package com.areeb.pokedeex.ui.home.adapter
 
+import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
@@ -8,7 +9,7 @@ import com.areeb.pokedeex.databinding.ItemLayoutBinding
 import com.areeb.pokedeex.ui.common.callBack.DiffCallBack
 import com.areeb.pokedeex.ui.home.viewHolder.HomeViewHolder
 
-class HomeAdapter : ListAdapter<Pokemon, HomeViewHolder>(DiffCallBack()) {
+class HomeAdapter(private val context: Context) : ListAdapter<Pokemon, HomeViewHolder>(DiffCallBack()) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeViewHolder {
         val binding = ItemLayoutBinding.inflate(
             LayoutInflater.from(parent.context),
@@ -20,7 +21,8 @@ class HomeAdapter : ListAdapter<Pokemon, HomeViewHolder>(DiffCallBack()) {
 
     override fun onBindViewHolder(viewHolder: HomeViewHolder, position: Int) {
         viewHolder.bind(
-            getItem(position)
+            getItem(position),
+            context
         )
     }
 }
