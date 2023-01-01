@@ -22,22 +22,21 @@
         android:layout_marginStart="@dimen/size_26" />
 
     <com.airbnb.lottie.LottieAnimationView
-        android:layout_width="@dimen/size_58"
-        android:layout_height="@dimen/size_58"
+        android:layout_width="@dimen/size_100"
+        android:layout_height="@dimen/size_100"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:lottie_autoPlay="true"
         app:lottie_rawRes="@raw/loader"
         app:lottie_loop="true"
         android:layout_marginEnd="@dimen/size_28"
-        android:layout_marginTop="@dimen/size_12"
         />
 
     <TextView
         android:id="@+id/appDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/size_8"
+        android:layout_marginTop="@dimen/size_12"
         android:fontFamily="@font/amaranth"
         android:layout_marginStart="@dimen/size_26"
         android:text="@string/app_description"
