@@ -1,6 +1,6 @@
 package com.areeb.pokedeex.data.models
 
-data class ResultDto(
+data class PrevEvolution(
     val name: String,
-    val url: String
+    val num: String
 )
